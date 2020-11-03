@@ -19,3 +19,12 @@ The Ceres application consists of 3 simple layers:
 More architecture diagrams:
 * [Database model](./app_architecture/database_model)
 * [API application architecture](./app_architecture/ceres_api_architecture_diagram.svg)
+
+## API Documentation
+
+The Ceres API currently has three routers:
+* **Data Router**
+* **User Router**
+* **Admin Router**
+
+[Read the detailed API documentation](./api_documentation.md)
