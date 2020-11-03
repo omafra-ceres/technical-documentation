@@ -7,8 +7,8 @@ The resources included here document the CERES app and the API server that power
 
 ## Resources included:
 1. Database model
-  * [database_model.pdf](./database_model/database_model.pdf)
-  * [database_model.xml](./database_model/database_model.xml)
+    1. [database_model.pdf](./database_model/database_model.pdf)
+    2. [database_model.xml](./database_model/database_model.xml)
 2. App structure overview
 3. API routes overview
 4. Software documentation
