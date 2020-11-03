@@ -6,6 +6,8 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
 
 ### `/data` Router
 
+<br />
+
 <details>
   <summary><code><strong>GET</strong> /data/:datasetId</code></summary><br />
 
@@ -173,7 +175,11 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   &nbsp;&nbsp;&nbsp;&nbsp;`Action` dataController.getGlobalOptions
 </details>
 
+---
+
 ### `/user` Router
+
+<br />
 
 <details>
   <summary><code><strong>GET</strong> /user/users</code></summary><br />
@@ -207,7 +213,11 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   &nbsp;&nbsp;&nbsp;&nbsp;`Action` userController.createDataset
 </details>
 
+---
+
 ### `/admin` Router
+
+<br />
 
 <details>
   <summary><code><strong>GET</strong> /admin/users</code></summary><br />
@@ -224,6 +234,8 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   
   &nbsp;&nbsp;&nbsp;&nbsp;`Action` adminController.users.create
 </details>
+
+---
 
 ## Controllers
 
