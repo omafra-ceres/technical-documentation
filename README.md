@@ -5,10 +5,17 @@ This repo includes a number of resources aimed to give an understanding of the `
 
 The resources included here document the CERES app and the API server that powers the backend of the app and will document the use of other 3rd party services used in the development and deployment of the `ALPHA prototype`
 
-## Resources included:
-1. Database model
-    1. [database_model.pdf](./database_model/database_model.pdf)
-    2. [database_model.xml](./database_model/database_model.xml)
-2. App structure overview
-3. API routes overview
-4. Software documentation
+## Application Architecture
+
+The Ceres application consists of 3 simple layers:
+* **presentation layer** — a client web application
+* **logic & data layer** — a RESTful API
+* **data storage/external service layer** — 3rd party APIs (MongoDB Atlas, Auth0, etc.)
+
+![A diagram illustrating three layers: the presentation layer, the logic & data layer, and the data storage/external service layer](./app_architecture/ceres_basic_architecture.svg)
+
+[Read more about the application architecture](./app_architecture/architecture.md)
+
+More architecture diagrams:
+* [Database model](./app_architecture/database_model)
+* [API application architecture](./app_architecture/ceres_api_architecture_diagram.svg)
