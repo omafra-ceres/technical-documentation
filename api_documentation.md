@@ -13,7 +13,7 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
 
   &nbsp;&nbsp;&nbsp;&nbsp;*Get all data and details for a specific dataset*
   
-  &nbsp;&nbsp;&nbsp;&nbsp;`Action` [dataController.get](#datacontrollerget)
+  &nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Action</strong></code> [dataController.get](#datacontrollerget)
   <br /><br />
 </details>
 
@@ -121,7 +121,7 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
 
   &nbsp;&nbsp;&nbsp;&nbsp;*Get a list of all global datasets*
   
-  &nbsp;&nbsp;&nbsp;&nbsp;`Action` [dataController.listGlobal](#datacontrollerlistglobal)
+  &nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Action</strong></code> [dataController.listGlobal](#datacontrollerlistglobal)
   <br /><br />
 </details>
 
@@ -130,8 +130,8 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
 
   &nbsp;&nbsp;&nbsp;&nbsp;*Create a global dataset*
   
-  &nbsp;&nbsp;&nbsp;&nbsp;`Action` [dataController.createGlobal](#datacontrollercreateglobal)
-  <br/>&nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Role:</strong></code> `ADMIN`
+  &nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Action</strong></code> [dataController.createGlobal](#datacontrollercreateglobal)
+  <br/>&nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Role</strong></code> `ADMIN`
   <br /><br />
 </details>
 
@@ -140,8 +140,8 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
 
   &nbsp;&nbsp;&nbsp;&nbsp;*Edit details for a specific global dataset*
   
-  &nbsp;&nbsp;&nbsp;&nbsp;`Action` [dataController.update](#datacontrollerupdate)
-  <br/>&nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Role:</strong></code> `ADMIN`
+  &nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Action</strong></code> [dataController.update](#datacontrollerupdate)
+  <br/>&nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Role</strong></code> `ADMIN`
   <br /><br />
 </details>
 
@@ -150,8 +150,8 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
 
   &nbsp;&nbsp;&nbsp;&nbsp;*Add a collaborator for a specific global dataset*
   
-  &nbsp;&nbsp;&nbsp;&nbsp;`Action` [dataController.addCollaborator](#datacontrolleraddcollaborator)
-  <br/>&nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Role:</strong></code> `ADMIN`
+  &nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Action</strong></code> [dataController.addCollaborator](#datacontrolleraddcollaborator)
+  <br/>&nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Role</strong></code> `ADMIN`
   <br /><br />
 </details>
 
@@ -160,8 +160,8 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
 
   &nbsp;&nbsp;&nbsp;&nbsp;*Remove a collaborator for a specific global dataset*
   
-  &nbsp;&nbsp;&nbsp;&nbsp;`Action` [dataController.removeCollaborator](#datacontrollerremovecollaborator)
-  <br/>&nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Role:</strong></code> `ADMIN`
+  &nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Action</strong></code> [dataController.removeCollaborator](#datacontrollerremovecollaborator)
+  <br/>&nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Role</strong></code> `ADMIN`
   <br /><br />
 </details>
 
@@ -170,8 +170,8 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
 
   &nbsp;&nbsp;&nbsp;&nbsp;*Recover an archived (deleted) global dataset*
   
-  &nbsp;&nbsp;&nbsp;&nbsp;`Action` [dataController.recoverDataset](#datacontrollerrecoverdataset)
-  <br/>&nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Role:</strong></code> `ADMIN`
+  &nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Action</strong></code> [dataController.recoverDataset](#datacontrollerrecoverdataset)
+  <br/>&nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Role</strong></code> `ADMIN`
   <br /><br />
 </details>
 
@@ -180,8 +180,8 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
 
   &nbsp;&nbsp;&nbsp;&nbsp;*Archive (delete) a global dataset*
   
-  &nbsp;&nbsp;&nbsp;&nbsp;`Action` [dataController.archiveDataset](#datacontrollerarchivedataset)
-  <br/>&nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Role:</strong></code> `ADMIN`
+  &nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Action</strong></code> [dataController.archiveDataset](#datacontrollerarchivedataset)
+  <br/>&nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Role</strong></code> `ADMIN`
   <br /><br />
 </details>
 
@@ -190,7 +190,7 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
 
   &nbsp;&nbsp;&nbsp;&nbsp;*Get all values from 1st column of the specific global dataset to be used as options in another dataset*
   
-  &nbsp;&nbsp;&nbsp;&nbsp;`Action` [dataController.getGlobalOptions](#datacontrollergetglobaloptions)
+  &nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Action</strong></code> [dataController.getGlobalOptions](#datacontrollergetglobaloptions)
   <br /><br />
 </details>
 
@@ -205,7 +205,7 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
 
   &nbsp;&nbsp;&nbsp;&nbsp;*Get a list of all users*
   
-  &nbsp;&nbsp;&nbsp;&nbsp;`Action` [userController.list](#usercontrollerlist)
+  &nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Action</strong></code> [userController.list](#usercontrollerlist)
   <br /><br />
 </details>
 
@@ -214,7 +214,7 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
 
   &nbsp;&nbsp;&nbsp;&nbsp;*Get a list of all datasets for the user making the request*
   
-  &nbsp;&nbsp;&nbsp;&nbsp;`Action` [userController.datasets](#usercontrollerdatasets)
+  &nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Action</strong></code> [userController.datasets](#usercontrollerdatasets)
   <br /><br />
 </details>
 
@@ -223,7 +223,7 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
 
   &nbsp;&nbsp;&nbsp;&nbsp;*Get a list of all archived (deleted) datasets for the user*
   
-  &nbsp;&nbsp;&nbsp;&nbsp;`Action` [userController.deleted](#usercontrollerdeleted)
+  &nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Action</strong></code> [userController.deleted](#usercontrollerdeleted)
   <br /><br />
 </details>
 
@@ -232,7 +232,7 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
 
   &nbsp;&nbsp;&nbsp;&nbsp;*Create a dataset with the current user as owner*
   
-  &nbsp;&nbsp;&nbsp;&nbsp;`Action` [userController.createDataset](#usercontrollercreatedataset)
+  &nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Action</strong></code> [userController.createDataset](#usercontrollercreatedataset)
   <br /><br />
 </details>
 
@@ -247,7 +247,7 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
 
   &nbsp;&nbsp;&nbsp;&nbsp;*Get a list of all users*
   
-  &nbsp;&nbsp;&nbsp;&nbsp;`Action` [adminController.users.list](#admincontrolleruserslist)
+  &nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Action</strong></code> [adminController.users.list](#admincontrolleruserslist)
   <br /><br />
 </details>
 
@@ -256,7 +256,7 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
 
   &nbsp;&nbsp;&nbsp;&nbsp;*Create a user with the provided info*
   
-  &nbsp;&nbsp;&nbsp;&nbsp;`Action` [adminController.users.create](#admincontrolleruserscreate)
+  &nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Action</strong></code> [adminController.users.create](#admincontrolleruserscreate)
   <br /><br />
 </details>
 
