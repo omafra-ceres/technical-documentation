@@ -14,6 +14,7 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   &nbsp;&nbsp;&nbsp;&nbsp;*Get all data and details for a specific dataset*
   
   &nbsp;&nbsp;&nbsp;&nbsp;`Action` dataController.get
+  <br /><br />
 </details>
 
 <details>
@@ -23,6 +24,7 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   
   &nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Action:</strong></code> dataController.update
   <br/>&nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Scope:</strong></code> `edit:details`
+  <br /><br />
 </details>
 
 <details>
@@ -32,6 +34,7 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   
   &nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Action:</strong></code> dataController.add
   <br/>&nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Scope:</strong></code> `add:items`
+  <br /><br />
 </details>
 
 <details>
@@ -41,6 +44,7 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   
   &nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Action:</strong></code> dataController.recoverDataset
   <br/>&nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Scope:</strong></code> `recover:dataset`
+  <br /><br />
 </details>
 
 <details>
@@ -50,6 +54,7 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   
   &nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Action:</strong></code> dataController.archiveDataset
   <br/>&nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Scope:</strong></code> `delete:dataset`
+  <br /><br />
 </details>
 
 <details>
@@ -59,6 +64,7 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   
   &nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Action:</strong></code> dataController.deleted
   <br/>&nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Scope:</strong></code> `recover:items`
+  <br /><br />
 </details>
 
 <details>
@@ -68,6 +74,7 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   
   &nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Action:</strong></code> dataController.recoverItems
   <br/>&nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Scope:</strong></code> `recover:items`
+  <br /><br />
 </details>
 
 <details>
@@ -77,6 +84,7 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   
   &nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Action:</strong></code> dataController.deleteItems
   <br/>&nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Scope:</strong></code> `delete:items`
+  <br /><br />
 </details>
 
 <details>
@@ -85,6 +93,7 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   &nbsp;&nbsp;&nbsp;&nbsp;*Get all collaborators for a specific dataset*
   
   &nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Action:</strong></code> dataController.deleteItems
+  <br /><br />
 </details>
 
 <details>
@@ -94,6 +103,7 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   
   &nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Action:</strong></code> dataController.addCollaborator
   <br/>&nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Scope:</strong></code> `update:collaborators`
+  <br /><br />
 </details>
 
 <details>
@@ -103,6 +113,7 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   
   &nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Action:</strong></code> dataController.removeCollaborator
   <br/>&nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Scope:</strong></code> `update:collaborators`
+  <br /><br />
 </details>
 
 <details>
@@ -111,6 +122,7 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   &nbsp;&nbsp;&nbsp;&nbsp;*Get a list of all global datasets*
   
   &nbsp;&nbsp;&nbsp;&nbsp;`Action` dataController.listGlobal
+  <br /><br />
 </details>
 
 <details>
@@ -120,6 +132,7 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   
   &nbsp;&nbsp;&nbsp;&nbsp;`Action` dataController.createGlobal
   <br/>&nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Role:</strong></code> `ADMIN`
+  <br /><br />
 </details>
 
 <details>
@@ -129,6 +142,7 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   
   &nbsp;&nbsp;&nbsp;&nbsp;`Action` dataController.update
   <br/>&nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Role:</strong></code> `ADMIN`
+  <br /><br />
 </details>
 
 <details>
@@ -138,6 +152,7 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   
   &nbsp;&nbsp;&nbsp;&nbsp;`Action` dataController.addCollaborator
   <br/>&nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Role:</strong></code> `ADMIN`
+  <br /><br />
 </details>
 
 <details>
@@ -147,6 +162,7 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   
   &nbsp;&nbsp;&nbsp;&nbsp;`Action` dataController.removeCollaborator
   <br/>&nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Role:</strong></code> `ADMIN`
+  <br /><br />
 </details>
 
 <details>
@@ -156,6 +172,7 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   
   &nbsp;&nbsp;&nbsp;&nbsp;`Action` dataController.recoverDataset
   <br/>&nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Role:</strong></code> `ADMIN`
+  <br /><br />
 </details>
 
 <details>
@@ -165,6 +182,7 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   
   &nbsp;&nbsp;&nbsp;&nbsp;`Action` dataController.archiveDataset
   <br/>&nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Role:</strong></code> `ADMIN`
+  <br /><br />
 </details>
 
 <details>
@@ -173,9 +191,10 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   &nbsp;&nbsp;&nbsp;&nbsp;*Get all values from 1st column of the specific global dataset to be used as options in another dataset*
   
   &nbsp;&nbsp;&nbsp;&nbsp;`Action` dataController.getGlobalOptions
+  <br /><br />
 </details>
 
----
+<br /><br />
 
 ### `/user` Router
 
@@ -187,6 +206,7 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   &nbsp;&nbsp;&nbsp;&nbsp;*Get a list of all users*
   
   &nbsp;&nbsp;&nbsp;&nbsp;`Action` userController.list
+  <br /><br />
 </details>
 
 <details>
@@ -195,6 +215,7 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   &nbsp;&nbsp;&nbsp;&nbsp;*Get a list of all datasets for the user making the request*
   
   &nbsp;&nbsp;&nbsp;&nbsp;`Action` userController.datasets
+  <br /><br />
 </details>
 
 <details>
@@ -203,6 +224,7 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   &nbsp;&nbsp;&nbsp;&nbsp;*Get a list of all archived (deleted) datasets for the user*
   
   &nbsp;&nbsp;&nbsp;&nbsp;`Action` userController.deleted
+  <br /><br />
 </details>
 
 <details>
@@ -211,9 +233,10 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   &nbsp;&nbsp;&nbsp;&nbsp;*Create a dataset with the current user as owner*
   
   &nbsp;&nbsp;&nbsp;&nbsp;`Action` userController.createDataset
+  <br /><br />
 </details>
 
----
+<br /><br />
 
 ### `/admin` Router
 
@@ -225,6 +248,7 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   &nbsp;&nbsp;&nbsp;&nbsp;*Get a list of all users*
   
   &nbsp;&nbsp;&nbsp;&nbsp;`Action` adminController.users.list
+  <br /><br />
 </details>
 
 <details>
@@ -233,9 +257,10 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   &nbsp;&nbsp;&nbsp;&nbsp;*Create a user with the provided info*
   
   &nbsp;&nbsp;&nbsp;&nbsp;`Action` adminController.users.create
+  <br /><br />
 </details>
 
----
+<br /><br />
 
 ## Controllers
 
@@ -247,11 +272,6 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
 <details>
   <summary>Response</summary>
   <table>
-    <tr>
-      <th>Key</th>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
     <tr>
       <td><code>dataset</code></td>
       <td><strong>Object</td></strong>
@@ -273,7 +293,10 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
       <td>Whether the dataset has deleted items</td>
     </tr>
   </table>
+  <br /><br />
 </details>
+
+<br />
 
 #### `add()`
 *Adds an item to the specified dataset*
@@ -282,23 +305,22 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   <summary>Request body</summary>
   
   An object representing the item to be added to the dataset. Should match the JSON Schema provided in the dataset template.
+  <br /><br />
 </details>
 
 <details>
   <summary>Response</summary>
   <table>
     <tr>
-      <th>Key</th>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
-    <tr>
       <td><code>item</code></td>
       <td><strong>Object</td></strong>
       <td>The item that has been added</td>
     </tr>
   </table>
+  <br /><br />
 </details>
+
+<br />
 
 #### `deleted()`
 *Lists the deleted items in the specified dataset*
@@ -307,17 +329,15 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   <summary>Response</summary>
   <table>
     <tr>
-      <th>Key</th>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
-    <tr>
       <td><code>items</code></td>
       <td><strong>Array</td></strong>
       <td>A list of the deleted items</td>
     </tr>
   </table>
+  <br /><br />
 </details>
+
+<br />
 
 #### `deleteItems()`
 *Delete the specified items from the dataset*
@@ -326,13 +346,17 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   <summary>Request body</summary>
   
   An array of item ids to be deleted from the dataset.
+  <br /><br />
 </details>
 
 <details>
   <summary>Response</summary>
   
   *Empty response on success*
+  <br /><br />
 </details>
+
+<br />
 
 #### `recoverItems()`
 *Recover the requested dataset items*
@@ -341,13 +365,17 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   <summary>Request body</summary>
   
   An array of item ids to be recovered.
+  <br /><br />
 </details>
 
 <details>
   <summary>Response</summary>
   
   *Empty response on success*
+  <br /><br />
 </details>
+
+<br />
 
 #### `update()`
 *Update dataset info and details*
@@ -356,13 +384,17 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   <summary>Request body</summary>
   
   An object representing the values to be updated.
+  <br /><br />
 </details>
 
 <details>
   <summary>Response</summary>
   
   *Empty response on success*
+  <br /><br />
 </details>
+
+<br />
 
 #### `collaborators()`
 *List of collaborators for the dataset*
@@ -371,17 +403,15 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   <summary>Response</summary>
   <table>
     <tr>
-      <th>Key</th>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
-    <tr>
       <td><code>collaborators</code></td>
       <td><strong>Array</td></strong>
       <td>A list of the dataset's collaborators with basic user details</td>
     </tr>
   </table>
+  <br /><br />
 </details>
+
+<br />
 
 #### `addCollaborator()`
 *Add a collaborator to the dataset*
@@ -390,13 +420,17 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   <summary>Request body</summary>
   
   An array of user objects to be added as collaborators.
+  <br /><br />
 </details>
 
 <details>
   <summary>Response</summary>
   
   *Empty response on success*
+  <br /><br />
 </details>
+
+<br />
 
 #### `removeCollaborator()`
 *Remove a collaborator from the dataset*
@@ -405,13 +439,17 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   <summary>Request body</summary>
   
   An object with the user id to be removed. `{ id: USERID }`
+  <br /><br />
 </details>
 
 <details>
   <summary>Response</summary>
   
   *Empty response on success*
+  <br /><br />
 </details>
+
+<br />
 
 #### `recoverDataset()`
 *Recover a deleted dataset*
@@ -420,7 +458,10 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   <summary>Response</summary>
   
   *Empty response on success*
+  <br /><br />
 </details>
+
+<br />
 
 #### `archiveDataset()`
 *Delete the requested dataset*
@@ -429,7 +470,10 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   <summary>Response</summary>
   
   *Empty response on success*
+  <br /><br />
 </details>
+
+<br />
 
 #### `listGlobal()`
 *List of global datasets*
@@ -438,7 +482,10 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   <summary>Response</summary>
   
   Array of global datasets with basic dataset details
+  <br /><br />
 </details>
+
+<br />
 
 #### `createGlobal()`
 *Create a global dataset*
@@ -447,11 +494,6 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   <summary>Request body</summary>
   
   <table>
-    <tr>
-      <th>Key</th>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
     <tr>
       <td><code>details</code></td>
       <td><strong>Object</td></strong>
@@ -463,6 +505,7 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
       <td>The JSON Schema template for the dataset to be created</td>
     </tr>
   </table>
+  <br /><br />
 </details>
 
 <details>
@@ -470,17 +513,15 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   
   <table>
     <tr>
-      <th>Key</th>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
-    <tr>
       <td><code>id</code></td>
       <td><strong>String</td></strong>
       <td>The id of the created dataset</td>
     </tr>
   </table>
+  <br /><br />
 </details>
+
+<br />
 
 #### `getGlobalOptions()`
 *The value of the first column for each item in the global dataset, to be used as options for other datasets*
@@ -490,14 +531,10 @@ Documentation for the Ceres RESTful API including routers, controllers, and serv
   
   <table>
     <tr>
-      <th>Key</th>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
-    <tr>
       <td><code>ops</code></td>
       <td><strong>Array</td></strong>
       <td>List of global dataset first column values</td>
     </tr>
   </table>
+  <br /><br />
 </details>
