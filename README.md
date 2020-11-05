@@ -28,3 +28,9 @@ The Ceres API currently has three routers:
 * **Admin Router**
 
 [Read the detailed API documentation](./api_documentation.md)
+
+## Existing Bugs
+
+After releasing a demo of the Ceres app two bugs were identified by users:
+1. [Authentication error that denies access to the API on many ministry devices](./bug_reporting/0_auth_popup_bug/writeup.md)
+1. [Dataset downloads cannot be opened directly in Excel](./bug_reporting/1_excel_csv_bug/writeup.md)
