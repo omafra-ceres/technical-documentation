@@ -2,6 +2,26 @@
 
 > Users on some ministry devices (but not all) have reported an inability to create datasets. This has been narrowed down to an error with the authentication system not receiving authorization and therefore users' requests to the Ceres API are been returned with a status of `401 - Unauthorized`
 
+## RESOLVED
+
+Turns out this was really simple, although not clear from the Auth0 documentation. The docs show the required audience as the URL to your API but it seems that the audience just needs to match the name of your API or the audience being checked on the server.
+
+```JSX
+// ORIGINAL
+<Auth0Provider
+  ...
+  audience="https://YOUR_DOMAIN/api/v2/"
+  ...
+>
+
+// FIX
+<Auth0Provider
+  ...
+  audience="your-api"
+  ...
+>
+```
+
 ## Steps to reproduce
 
 1. Use a non-ministry computer (or a ministry device without popups blocked)
